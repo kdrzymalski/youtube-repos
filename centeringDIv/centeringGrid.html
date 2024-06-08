@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Centering Div</title>
+        <style>
+            .my-div {
+                border: 1px solid black;
+                background: red;
+                /*width: 100px;*/
+                /*height: 100px;*/
+
+                /*Wartości są obliczane na podstawie
+                 wymiarów grid cell*/
+                width: 50%;
+                height: 50%;
+            }
+
+            .container {
+                border: 1px solid black;
+                background: aqua;
+                width: 500px;
+                height: 500px;
+
+                display: grid;
+                place-content: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="my-div">DIV</div>
+        </div>
+    </body>
+</html>

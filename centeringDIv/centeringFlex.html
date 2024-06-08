@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Centering Div</title>
+        <style>
+            .my-div {
+                border: 1px solid black;
+                background: red;
+                width: 100px;
+                height: 100px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .container {
+                border: 1px solid black;
+                background: aqua;
+                width: 500px;
+                height: 500px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="my-div">DIV</div>
+        </div>
+    </body>
+</html>
